@@ -33,10 +33,14 @@ PyTorch deep learning project made easy.
 <!-- /code_chunk_output -->
 
 ## Requirements
-* Python >= 3.5 (3.6 recommended)
-* PyTorch >= 0.4 (1.2 recommended)
+Try `pip install -r requirements.txt`
+* python >= 3.6 (3.6 recommended)
+* torch >= 1.7.1 (1.7.1 recommended)
+* torchvision >= 0.8.2 (0.8.2 recommended)
+* numpy >= 1.19.5 (1.19.5 recommended)
+* opencv-python >= 3.4.1.15 (3.4.1.15 recommended)
 * tqdm (Optional for `test.py`)
-* tensorboard >= 1.14 (see [Tensorboard Visualization](#tensorboard-visualization))
+* tensorboardX >= 2.4 (see [Tensorboard Visualization](#tensorboard-visualization))
 
 ## Features
 * Clear folder structure which is suitable for many deep learning projects.
@@ -333,7 +337,7 @@ This template supports Tensorboard visualization by using either  `torch.utils.t
 
 1. **Install**
 
-    If you are using pytorch 1.1 or higher, install tensorboard by 'pip install tensorboard>=1.14.0'.
+    If you are using pytorch 1.7.1 or higher, install tensorboard by 'pip install tensorboard>=2.5.0'.  
 
     Otherwise, you should install tensorboardx. Follow installation guide in [TensorboardX](https://github.com/lanpa/tensorboardX).
 
